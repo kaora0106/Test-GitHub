@@ -1,0 +1,19 @@
+/*CSS*/
+@charset "UTF-8";
+body{
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+
+#header{
+	min-height: 80px;
+}
+
+#banner{
+	width: 1024px;
+	margin: 0px auto;
+}
+#banner img{
+	width: 100%;
+}
