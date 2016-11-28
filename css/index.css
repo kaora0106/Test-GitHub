@@ -5,6 +5,9 @@ body{
 	padding: 0px;
 	margin: 0px;
 }
+.Clear {
+	clear: both;
+}
 
 #header{
 	min-height: 80px;
@@ -13,7 +16,16 @@ body{
 #banner{
 	width: 1024px;
 	margin: 0px auto;
+	position: relative;
 }
 #banner img{
 	width: 100%;
+}
+#banner img.bannerFront{
+	position: absolute;
+	z-index: 6;
+}
+#banner img.bannerBack{
+	position: relative;
+	z-index: 5;
 }
